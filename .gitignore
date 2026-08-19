@@ -1,0 +1,14 @@
+# Ignore the massive screenshots folder
+data/batches/screenshots/
+
+# Ignore the chunked intermediate batches 
+data/batches/batch_*_dataset.csv
+
+# Ignore Mac/Windows hidden system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
