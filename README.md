@@ -12,8 +12,8 @@ The methodology is divided into two phases:
 ## 📂 Repository Structure
 
 * `/src`: Contains the experimental code and analysis scripts.
-  * `App.js`, `bright_pattern.html`, `dark_pattern.html`: The synthetic web environment used for Phase 2.
-  * `Pipeline_GIT.ipynb`: The primary Jupyter Notebook containing the statistical models (Logistic Regression, Welch's t-tests, Cohen's d) and dataset compilation.
+  * `App.js`, `App.css`, `package.json`, `bright_pattern.html`, `dark_pattern.html`: The synthetic web environment used for Phase 2.
+  * `Pipeline.ipynb`: The primary Jupyter Notebook containing the statistical models (Logistic Regression, Welch's t-tests, Cohen's d) and dataset compilation.
 * `/data`: Contains all anonymized tabular data.
   * `/phase1_computational`: The master scraping dataset, Tranco list, and manual human validation matrices.
   * `/phase2_behavioral`: The participant demographics, PostHog telemetry, and NASA-TLX psychometric survey results.
@@ -25,13 +25,13 @@ The methodology is divided into two phases:
 All tabular data, behavioral telemetry, and statistical outputs are fully available within the `/data` directory of this repository.
 
 **5.2GB Screenshot Corpus:** Due to GitHub file size constraints, the complete dataset of automated cookie banner screenshots generated during the Phase 1 computational audit is hosted externally. It can be accessed and downloaded via Zenodo: 
-> `[INSERT YOUR ZENODO/OSF LINK HERE]`
+> 10.5281/zenodo.22030854
 
 ## ⚙️ Reproducibility
 To replicate the statistical analyses and figure generation:
 1. Clone this repository to your local machine.
 2. Ensure you have Python 3.9+ installed along with `pandas`, `numpy`, `scipy`, `statsmodels`, and `seaborn`.
-3. Open and run `src/Pipeline_GIT.ipynb`. The notebook is configured to read directly from the `/data` directory and will reproduce all odds ratios, confidence intervals, and p-values reported in the manuscript.
+3. Open and run `src/Pipeline.ipynb`. The notebook is configured to read directly from the `/data` directory and will reproduce all odds ratios, confidence intervals, and p-values reported in the manuscript.
 
 ## 📝 License
 This project is licensed under the MIT License.
