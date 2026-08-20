@@ -1,0 +1,558 @@
+Timestamp,Participant_ID,Condition,Mental_Demand,Temporal_Demand,Performance,Effort,Frustration
+01-07-2026 07:09,usr_001,Dark_Pattern,8,7,6,9,8
+01-07-2026 09:23,usr_002,Dark_Pattern,9,8,4,8,9
+01-07-2026 10:54,usr_003,Bright_Pattern,2,3,2,2,1
+01-07-2026 11:16,usr_004,Bright_Pattern,3,2,3,3,2
+01-07-2026 12:24,usr_005,Dark_Pattern,7,6,5,8,7
+01-07-2026 14:47,usr_006,Dark_Pattern,8,7,7,9,8
+01-07-2026 16:35,usr_007,Bright_Pattern,2,2,2,2,2
+01-07-2026 17:02,usr_008,Bright_Pattern,3,3,3,3,1
+01-07-2026 18:12,usr_009,Dark_Pattern,7,8,6,8,7
+02-07-2026 07:43,usr_010,Dark_Pattern,9,8,5,9,9
+02-07-2026 07:55,usr_011,Bright_Pattern,2,2,2,2,2
+02-07-2026 08:55,usr_012,Bright_Pattern,3,3,2,3,2
+02-07-2026 09:41,usr_013,Dark_Pattern,8,7,6,8,8
+02-07-2026 12:33,usr_014,Dark_Pattern,9,8,5,9,9
+02-07-2026 13:08,usr_015,Bright_Pattern,2,3,2,2,1
+02-07-2026 14:09,usr_016,Bright_Pattern,2,2,3,2,2
+02-07-2026 15:18,usr_017,Dark_Pattern,7,7,6,8,7
+02-07-2026 18:38,usr_018,Dark_Pattern,8,8,5,9,8
+02-07-2026 19:47,usr_019,Bright_Pattern,3,2,2,3,2
+02-07-2026 20:34,usr_020,Bright_Pattern,2,3,3,2,1
+02-07-2026 21:06,usr_021,Dark_Pattern,8,7,6,9,8
+02-07-2026 22:28,usr_022,Dark_Pattern,9,9,5,9,9
+02-07-2026 22:41,usr_023,Bright_Pattern,2,2,2,2,1
+03-07-2026 06:48,usr_024,Bright_Pattern,3,3,3,3,2
+03-07-2026 07:27,usr_025,Dark_Pattern,7,8,6,8,7
+03-07-2026 08:16,usr_026,Dark_Pattern,8,7,5,9,8
+03-07-2026 08:37,usr_027,Bright_Pattern,2,2,2,2,2
+03-07-2026 10:14,usr_028,Bright_Pattern,3,3,2,3,1
+03-07-2026 12:59,usr_029,Dark_Pattern,8,7,6,8,8
+03-07-2026 13:33,usr_030,Dark_Pattern,9,8,5,9,9
+03-07-2026 14:54,usr_031,Bright_Pattern,2,2,2,2,1
+03-07-2026 15:28,usr_032,Bright_Pattern,2,3,3,2,2
+03-07-2026 18:23,usr_033,Dark_Pattern,7,7,6,8,7
+03-07-2026 19:22,usr_034,Dark_Pattern,8,8,5,9,8
+04-07-2026 08:14,usr_035,Bright_Pattern,3,2,2,3,2
+04-07-2026 09:22,usr_036,Bright_Pattern,2,3,3,2,1
+04-07-2026 09:28,usr_037,Dark_Pattern,7,7,6,8,7
+04-07-2026 17:19,usr_038,Dark_Pattern,8,8,5,9,8
+04-07-2026 19:51,usr_039,Bright_Pattern,2,2,2,2,1
+04-07-2026 22:49,usr_040,Bright_Pattern,3,3,3,3,2
+06-07-2026 06:33,usr_041,Dark_Pattern,8,7,6,9,8
+06-07-2026 06:41,usr_042,Dark_Pattern,9,8,5,9,9
+06-07-2026 08:27,usr_043,Bright_Pattern,2,2,2,2,2
+06-07-2026 09:05,usr_044,Bright_Pattern,3,3,2,3,1
+06-07-2026 10:28,usr_045,Dark_Pattern,7,7,6,8,7
+06-07-2026 12:48,usr_046,Dark_Pattern,8,8,5,9,8
+06-07-2026 13:24,usr_047,Bright_Pattern,2,3,2,2,1
+06-07-2026 13:45,usr_048,Bright_Pattern,2,2,3,2,2
+06-07-2026 14:44,usr_049,Dark_Pattern,7,7,6,8,7
+06-07-2026 15:19,usr_050,Dark_Pattern,8,8,5,9,8
+06-07-2026 17:33,usr_051,Bright_Pattern,3,2,2,3,2
+06-07-2026 19:16,usr_052,Bright_Pattern,2,3,3,2,1
+06-07-2026 21:07,usr_053,Dark_Pattern,8,7,6,9,8
+06-07-2026 21:19,usr_054,Dark_Pattern,9,9,5,9,9
+07-07-2026 06:23,usr_055,Bright_Pattern,2,2,2,2,1
+07-07-2026 07:11,usr_056,Bright_Pattern,3,3,3,3,2
+07-07-2026 09:02,usr_057,Dark_Pattern,7,8,6,8,7
+07-07-2026 10:35,usr_058,Dark_Pattern,8,7,5,9,8
+07-07-2026 11:20,usr_059,Bright_Pattern,2,2,2,2,2
+07-07-2026 13:53,usr_060,Bright_Pattern,3,3,2,3,1
+07-07-2026 14:26,usr_061,Dark_Pattern,8,7,6,8,8
+07-07-2026 15:13,usr_062,Dark_Pattern,9,8,5,9,9
+07-07-2026 16:50,usr_063,Bright_Pattern,2,2,2,2,1
+07-07-2026 16:52,usr_064,Bright_Pattern,2,3,3,2,2
+07-07-2026 20:14,usr_065,Dark_Pattern,7,7,6,8,7
+08-07-2026 07:16,usr_066,Dark_Pattern,8,8,5,9,8
+08-07-2026 07:44,usr_067,Bright_Pattern,3,2,2,3,2
+08-07-2026 07:57,usr_068,Bright_Pattern,2,3,3,2,1
+08-07-2026 08:39,usr_069,Dark_Pattern,7,7,6,8,7
+08-07-2026 08:41,usr_070,Dark_Pattern,8,8,5,9,8
+08-07-2026 12:02,usr_071,Bright_Pattern,2,2,2,2,1
+08-07-2026 12:22,usr_072,Bright_Pattern,3,3,3,3,2
+08-07-2026 13:54,usr_073,Dark_Pattern,8,7,6,9,8
+08-07-2026 14:04,usr_074,Dark_Pattern,9,8,5,9,9
+08-07-2026 14:23,usr_075,Bright_Pattern,2,2,2,2,2
+08-07-2026 18:07,usr_076,Bright_Pattern,3,3,2,3,1
+08-07-2026 18:34,usr_077,Dark_Pattern,7,7,6,8,7
+08-07-2026 19:25,usr_078,Dark_Pattern,8,8,5,9,8
+08-07-2026 21:52,usr_079,Bright_Pattern,2,3,2,2,1
+08-07-2026 21:58,usr_080,Bright_Pattern,2,2,3,2,2
+08-07-2026 23:15,usr_081,Dark_Pattern,7,7,6,8,7
+09-07-2026 08:50,usr_082,Dark_Pattern,8,8,5,9,8
+09-07-2026 09:19,usr_083,Bright_Pattern,3,2,2,3,2
+09-07-2026 09:58,usr_084,Bright_Pattern,2,3,3,2,1
+09-07-2026 10:01,usr_085,Dark_Pattern,8,7,6,9,8
+09-07-2026 10:42,usr_086,Dark_Pattern,9,9,5,9,9
+09-07-2026 12:21,usr_087,Bright_Pattern,2,2,2,2,1
+09-07-2026 15:37,usr_088,Bright_Pattern,3,3,3,3,2
+09-07-2026 16:28,usr_089,Dark_Pattern,7,8,6,8,7
+09-07-2026 17:30,usr_090,Dark_Pattern,8,7,5,9,8
+09-07-2026 17:55,usr_091,Bright_Pattern,2,2,2,2,2
+09-07-2026 18:46,usr_092,Bright_Pattern,3,3,2,3,1
+10-07-2026 06:07,usr_093,Dark_Pattern,8,7,6,8,8
+10-07-2026 06:13,usr_094,Dark_Pattern,9,8,5,9,9
+10-07-2026 07:49,usr_095,Bright_Pattern,2,2,2,2,1
+10-07-2026 08:04,usr_096,Bright_Pattern,2,3,3,2,2
+10-07-2026 10:13,usr_097,Dark_Pattern,7,7,6,8,7
+10-07-2026 11:05,usr_098,Dark_Pattern,8,8,5,9,8
+10-07-2026 12:41,usr_099,Bright_Pattern,3,2,2,3,2
+10-07-2026 13:29,usr_100,Bright_Pattern,2,3,3,2,1
+10-07-2026 14:17,usr_101,Dark_Pattern,7,7,6,8,7
+10-07-2026 15:56,usr_102,Dark_Pattern,8,8,5,9,8
+10-07-2026 19:07,usr_103,Bright_Pattern,2,2,2,2,1
+10-07-2026 19:36,usr_104,Bright_Pattern,3,3,3,3,2
+10-07-2026 21:20,usr_105,Dark_Pattern,8,7,6,9,8
+10-07-2026 23:25,usr_106,Dark_Pattern,9,8,5,9,9
+10-07-2026 23:34,usr_107,Bright_Pattern,2,2,2,2,2
+11-07-2026 17:50,usr_108,Bright_Pattern,3,3,2,3,1
+11-07-2026 22:04,usr_109,Dark_Pattern,7,7,6,8,7
+13-07-2026 06:35,usr_110,Dark_Pattern,8,8,5,9,8
+13-07-2026 07:08,usr_111,Bright_Pattern,2,3,2,2,1
+13-07-2026 07:39,usr_112,Bright_Pattern,2,2,3,2,2
+13-07-2026 07:50,usr_113,Dark_Pattern,7,7,6,8,7
+13-07-2026 08:03,usr_114,Dark_Pattern,8,8,5,9,8
+13-07-2026 11:03,usr_115,Bright_Pattern,3,2,2,3,2
+13-07-2026 12:16,usr_116,Bright_Pattern,2,3,3,2,1
+13-07-2026 12:19,usr_117,Dark_Pattern,8,7,6,9,8
+13-07-2026 13:11,usr_118,Dark_Pattern,9,9,5,9,9
+13-07-2026 13:52,usr_119,Bright_Pattern,2,2,2,2,1
+13-07-2026 17:42,usr_120,Bright_Pattern,3,3,3,3,2
+13-07-2026 17:44,usr_121,Dark_Pattern,7,8,6,8,7
+13-07-2026 18:08,usr_122,Dark_Pattern,8,7,5,9,8
+13-07-2026 18:28,usr_123,Bright_Pattern,2,2,2,2,2
+13-07-2026 18:59,usr_124,Bright_Pattern,3,3,2,3,1
+14-07-2026 06:55,usr_125,Dark_Pattern,8,7,6,8,8
+14-07-2026 08:15,usr_126,Dark_Pattern,9,8,5,9,9
+14-07-2026 08:44,usr_127,Bright_Pattern,2,2,2,2,1
+14-07-2026 08:52,usr_128,Bright_Pattern,2,3,3,2,2
+14-07-2026 09:44,usr_129,Dark_Pattern,7,7,6,8,7
+14-07-2026 11:38,usr_130,Dark_Pattern,8,8,5,9,8
+14-07-2026 14:36,usr_131,Bright_Pattern,3,2,2,3,2
+14-07-2026 15:01,usr_132,Bright_Pattern,2,3,3,2,1
+14-07-2026 15:55,usr_133,Dark_Pattern,7,7,6,8,7
+14-07-2026 16:21,usr_134,Dark_Pattern,8,8,5,9,8
+14-07-2026 16:29,usr_135,Bright_Pattern,2,2,2,2,1
+14-07-2026 20:22,usr_136,Bright_Pattern,3,3,3,3,2
+14-07-2026 22:57,usr_137,Dark_Pattern,8,7,6,9,8
+15-07-2026 06:58,usr_138,Dark_Pattern,9,8,5,9,9
+15-07-2026 07:14,usr_139,Bright_Pattern,2,2,2,2,2
+15-07-2026 09:14,usr_140,Bright_Pattern,3,3,2,3,1
+15-07-2026 10:03,usr_141,Dark_Pattern,7,7,6,8,7
+15-07-2026 10:31,usr_142,Dark_Pattern,8,8,5,9,8
+15-07-2026 11:25,usr_143,Bright_Pattern,2,3,2,2,1
+15-07-2026 12:45,usr_144,Bright_Pattern,2,2,3,2,2
+15-07-2026 14:09,usr_145,Dark_Pattern,7,7,6,8,7
+15-07-2026 15:12,usr_146,Dark_Pattern,8,8,5,9,8
+15-07-2026 16:57,usr_147,Bright_Pattern,3,2,2,3,2
+15-07-2026 17:34,usr_148,Bright_Pattern,2,3,3,2,1
+15-07-2026 19:28,usr_149,Dark_Pattern,8,7,6,9,8
+15-07-2026 19:44,usr_150,Dark_Pattern,9,9,5,9,9
+16-07-2026 06:02,usr_151,Bright_Pattern,2,2,2,2,1
+16-07-2026 06:26,usr_152,Bright_Pattern,3,3,3,3,2
+16-07-2026 07:42,usr_153,Dark_Pattern,7,8,6,8,7
+16-07-2026 08:28,usr_154,Dark_Pattern,8,7,5,9,8
+16-07-2026 09:32,usr_155,Bright_Pattern,2,2,2,2,2
+16-07-2026 11:36,usr_156,Bright_Pattern,3,3,2,3,1
+16-07-2026 11:58,usr_157,Dark_Pattern,8,7,6,8,8
+16-07-2026 13:17,usr_158,Dark_Pattern,9,8,5,9,9
+16-07-2026 14:22,usr_159,Bright_Pattern,2,2,2,2,1
+16-07-2026 14:48,usr_160,Bright_Pattern,2,3,3,2,2
+16-07-2026 17:05,usr_161,Dark_Pattern,7,7,6,8,7
+16-07-2026 17:07,usr_162,Dark_Pattern,8,8,5,9,8
+16-07-2026 18:55,usr_163,Bright_Pattern,3,2,2,3,2
+16-07-2026 21:33,usr_164,Bright_Pattern,2,3,3,2,1
+16-07-2026 22:39,usr_165,Dark_Pattern,7,7,6,8,7
+17-07-2026 07:36,usr_166,Dark_Pattern,8,8,5,9,8
+17-07-2026 08:19,usr_167,Bright_Pattern,2,2,2,2,1
+17-07-2026 08:51,usr_168,Bright_Pattern,3,3,3,3,2
+17-07-2026 10:08,usr_169,Dark_Pattern,8,7,6,9,8
+17-07-2026 10:52,usr_170,Dark_Pattern,9,8,5,9,9
+17-07-2026 13:35,usr_171,Bright_Pattern,2,2,2,2,2
+17-07-2026 13:42,usr_172,Bright_Pattern,3,3,2,3,1
+17-07-2026 13:46,usr_173,Dark_Pattern,7,7,6,8,7
+17-07-2026 15:46,usr_174,Dark_Pattern,8,8,5,9,8
+17-07-2026 16:08,usr_175,Bright_Pattern,2,3,2,2,1
+17-07-2026 20:15,usr_176,Bright_Pattern,2,2,3,2,2
+17-07-2026 21:11,usr_177,Dark_Pattern,7,7,6,8,7
+18-07-2026 10:05,usr_178,Dark_Pattern,8,8,5,9,8
+18-07-2026 11:31,usr_179,Bright_Pattern,3,2,2,3,2
+18-07-2026 12:54,usr_180,Bright_Pattern,2,3,3,2,1
+18-07-2026 14:29,usr_181,Dark_Pattern,8,7,6,9,8
+18-07-2026 16:10,usr_182,Dark_Pattern,9,9,5,9,9
+18-07-2026 16:14,usr_183,Bright_Pattern,2,2,2,2,1
+18-07-2026 18:11,usr_184,Bright_Pattern,3,3,3,3,2
+18-07-2026 20:05,usr_185,Dark_Pattern,7,8,6,8,7
+18-07-2026 20:18,usr_186,Dark_Pattern,8,7,5,9,8
+18-07-2026 21:48,usr_187,Bright_Pattern,2,2,2,2,2
+19-07-2026 15:36,usr_188,Bright_Pattern,3,3,2,3,1
+19-07-2026 18:37,usr_189,Dark_Pattern,8,7,6,8,8
+19-07-2026 19:03,usr_190,Dark_Pattern,9,8,5,9,9
+19-07-2026 19:39,usr_191,Bright_Pattern,2,2,2,2,1
+19-07-2026 22:07,usr_192,Bright_Pattern,2,3,3,2,2
+20-07-2026 06:28,usr_193,Dark_Pattern,7,7,6,8,7
+20-07-2026 07:25,usr_194,Dark_Pattern,8,8,5,9,8
+20-07-2026 08:09,usr_195,Bright_Pattern,3,2,2,3,2
+20-07-2026 08:20,usr_196,Bright_Pattern,2,3,3,2,1
+20-07-2026 09:56,usr_197,Dark_Pattern,7,7,6,8,7
+20-07-2026 11:09,usr_198,Dark_Pattern,8,8,5,9,8
+20-07-2026 13:07,usr_199,Bright_Pattern,2,2,2,2,1
+20-07-2026 14:27,usr_200,Bright_Pattern,3,3,3,3,2
+20-07-2026 15:42,usr_201,Dark_Pattern,8,7,6,9,8
+20-07-2026 16:43,usr_202,Dark_Pattern,9,8,5,9,9
+20-07-2026 17:13,usr_203,Bright_Pattern,2,2,2,2,1
+20-07-2026 20:56,usr_204,Bright_Pattern,3,3,3,3,2
+20-07-2026 22:15,usr_205,Dark_Pattern,7,8,6,8,7
+20-07-2026 22:26,usr_206,Dark_Pattern,8,7,5,9,8
+21-07-2026 06:49,usr_207,Bright_Pattern,2,2,2,2,2
+21-07-2026 07:04,usr_208,Bright_Pattern,3,3,2,3,1
+21-07-2026 07:29,usr_209,Dark_Pattern,8,7,6,8,8
+21-07-2026 08:04,usr_210,Dark_Pattern,9,8,5,9,9
+21-07-2026 08:57,usr_211,Bright_Pattern,2,2,2,2,1
+21-07-2026 11:49,usr_212,Bright_Pattern,2,3,3,2,2
+21-07-2026 12:37,usr_213,Dark_Pattern,7,7,6,8,7
+21-07-2026 13:25,usr_214,Dark_Pattern,8,8,5,9,8
+21-07-2026 14:49,usr_215,Bright_Pattern,3,2,2,3,2
+21-07-2026 15:38,usr_216,Bright_Pattern,2,3,3,2,1
+21-07-2026 16:37,usr_217,Dark_Pattern,8,7,6,9,8
+21-07-2026 17:45,usr_218,Dark_Pattern,9,9,5,9,9
+21-07-2026 21:14,usr_219,Bright_Pattern,2,2,2,2,1
+21-07-2026 22:19,usr_220,Bright_Pattern,3,3,3,3,2
+21-07-2026 23:28,usr_221,Dark_Pattern,7,8,6,8,7
+22-07-2026 06:43,usr_222,Dark_Pattern,8,7,5,9,8
+22-07-2026 07:05,usr_223,Bright_Pattern,2,2,2,2,2
+22-07-2026 08:28,usr_224,Bright_Pattern,3,3,2,3,1
+22-07-2026 09:23,usr_225,Dark_Pattern,8,7,6,8,8
+22-07-2026 09:46,usr_226,Dark_Pattern,9,8,5,9,9
+22-07-2026 11:55,usr_227,Bright_Pattern,2,2,2,2,1
+22-07-2026 13:22,usr_228,Bright_Pattern,2,3,3,2,2
+22-07-2026 13:28,usr_229,Dark_Pattern,7,7,6,8,7
+22-07-2026 15:50,usr_230,Dark_Pattern,8,8,5,9,8
+22-07-2026 16:53,usr_231,Bright_Pattern,3,2,2,3,2
+22-07-2026 17:01,usr_232,Bright_Pattern,2,3,3,2,1
+22-07-2026 19:05,usr_233,Dark_Pattern,7,7,6,8,7
+22-07-2026 19:58,usr_234,Dark_Pattern,8,8,5,9,8
+22-07-2026 23:08,usr_235,Bright_Pattern,2,2,2,2,1
+23-07-2026 06:37,usr_236,Bright_Pattern,3,3,3,3,2
+23-07-2026 06:38,usr_237,Dark_Pattern,8,7,6,9,8
+23-07-2026 07:40,usr_238,Dark_Pattern,9,8,5,9,9
+23-07-2026 09:29,usr_239,Bright_Pattern,2,2,2,2,2
+23-07-2026 09:36,usr_240,Bright_Pattern,3,3,2,3,1
+23-07-2026 10:11,usr_241,Dark_Pattern,7,7,6,8,7
+23-07-2026 12:04,usr_242,Dark_Pattern,8,8,5,9,8
+23-07-2026 13:05,usr_243,Bright_Pattern,2,3,2,2,1
+23-07-2026 14:51,usr_244,Bright_Pattern,2,2,3,2,2
+23-07-2026 15:53,usr_245,Dark_Pattern,7,7,6,8,7
+23-07-2026 16:33,usr_246,Dark_Pattern,8,8,5,9,8
+23-07-2026 18:22,usr_247,Bright_Pattern,3,2,2,3,2
+23-07-2026 18:31,usr_248,Bright_Pattern,2,3,3,2,1
+23-07-2026 20:19,usr_249,Dark_Pattern,8,7,6,9,8
+24-07-2026 06:19,usr_250,Dark_Pattern,9,9,5,9,9
+24-07-2026 07:37,usr_251,Bright_Pattern,2,2,2,2,1
+24-07-2026 08:29,usr_252,Bright_Pattern,3,3,3,3,2
+24-07-2026 09:33,usr_253,Dark_Pattern,7,8,6,8,7
+24-07-2026 10:27,usr_254,Dark_Pattern,8,7,5,9,8
+24-07-2026 12:47,usr_255,Bright_Pattern,2,2,2,2,2
+24-07-2026 13:26,usr_256,Bright_Pattern,3,3,2,3,1
+24-07-2026 14:33,usr_257,Dark_Pattern,8,7,6,8,8
+24-07-2026 16:51,usr_258,Dark_Pattern,9,8,5,9,9
+24-07-2026 17:25,usr_259,Bright_Pattern,2,2,2,2,1
+24-07-2026 17:58,usr_260,Bright_Pattern,2,3,3,2,2
+24-07-2026 19:56,usr_261,Dark_Pattern,7,7,6,8,7
+25-07-2026 07:19,usr_262,Dark_Pattern,8,8,5,9,8
+25-07-2026 08:08,usr_263,Bright_Pattern,3,2,2,3,2
+25-07-2026 08:11,usr_264,Bright_Pattern,2,3,3,2,1
+25-07-2026 10:10,usr_265,Dark_Pattern,7,7,6,8,7
+25-07-2026 10:42,usr_266,Dark_Pattern,8,8,5,9,8
+25-07-2026 12:05,usr_267,Bright_Pattern,2,2,2,2,1
+25-07-2026 14:55,usr_268,Bright_Pattern,3,3,3,3,2
+25-07-2026 15:20,usr_269,Dark_Pattern,8,7,6,9,8
+25-07-2026 15:43,usr_270,Dark_Pattern,9,8,5,9,9
+25-07-2026 16:04,usr_271,Bright_Pattern,2,2,2,2,2
+25-07-2026 21:31,usr_272,Bright_Pattern,3,3,2,3,1
+25-07-2026 21:42,usr_273,Dark_Pattern,7,7,6,8,7
+25-07-2026 22:29,usr_274,Dark_Pattern,8,8,5,9,8
+25-07-2026 23:41,usr_275,Bright_Pattern,2,3,2,2,1
+26-07-2026 06:14,usr_276,Bright_Pattern,2,2,3,2,2
+26-07-2026 07:00,usr_277,Dark_Pattern,7,7,6,8,7
+26-07-2026 08:17,usr_278,Dark_Pattern,8,8,5,9,8
+26-07-2026 08:47,usr_279,Bright_Pattern,3,2,2,3,2
+26-07-2026 10:25,usr_280,Bright_Pattern,2,3,3,2,1
+26-07-2026 11:13,usr_281,Dark_Pattern,8,7,6,9,8
+26-07-2026 12:26,usr_282,Dark_Pattern,9,9,5,9,9
+26-07-2026 14:34,usr_283,Bright_Pattern,2,2,2,2,1
+26-07-2026 14:52,usr_284,Bright_Pattern,3,3,3,3,2
+26-07-2026 15:57,usr_285,Dark_Pattern,7,8,6,8,7
+26-07-2026 16:38,usr_286,Dark_Pattern,8,7,5,9,8
+26-07-2026 17:58,usr_287,Bright_Pattern,2,2,2,2,2
+26-07-2026 20:26,usr_288,Bright_Pattern,3,3,2,3,1
+26-07-2026 22:46,usr_289,Dark_Pattern,8,7,6,8,8
+27-07-2026 06:08,usr_290,Dark_Pattern,9,8,5,9,9
+27-07-2026 06:31,usr_291,Bright_Pattern,2,2,2,2,1
+27-07-2026 07:12,usr_292,Bright_Pattern,2,3,3,2,2
+27-07-2026 08:58,usr_293,Dark_Pattern,7,7,6,8,7
+27-07-2026 09:04,usr_294,Dark_Pattern,8,8,5,9,8
+27-07-2026 11:27,usr_295,Bright_Pattern,3,2,2,3,2
+27-07-2026 12:15,usr_296,Bright_Pattern,2,3,3,2,1
+27-07-2026 13:09,usr_297,Dark_Pattern,7,7,6,8,7
+27-07-2026 15:29,usr_298,Dark_Pattern,8,8,5,9,8
+27-07-2026 17:23,usr_299,Bright_Pattern,2,2,2,2,1
+27-07-2026 17:59,usr_300,Bright_Pattern,3,3,3,3,2
+27-07-2026 18:41,usr_301,Dark_Pattern,8,7,6,9,8
+27-07-2026 18:52,usr_302,Dark_Pattern,9,8,5,9,9
+27-07-2026 22:03,usr_303,Bright_Pattern,2,2,2,2,2
+28-07-2026 06:47,usr_304,Bright_Pattern,3,3,2,3,1
+28-07-2026 08:33,usr_305,Dark_Pattern,7,7,6,8,7
+28-07-2026 09:05,usr_306,Dark_Pattern,8,8,5,9,8
+28-07-2026 09:35,usr_307,Bright_Pattern,2,3,2,2,1
+28-07-2026 09:39,usr_308,Bright_Pattern,2,2,3,2,2
+28-07-2026 13:01,usr_309,Dark_Pattern,7,7,6,8,7
+28-07-2026 14:46,usr_310,Dark_Pattern,8,8,5,9,8
+28-07-2026 16:05,usr_311,Bright_Pattern,3,2,2,3,2
+28-07-2026 16:42,usr_312,Bright_Pattern,2,3,3,2,1
+28-07-2026 16:44,usr_313,Dark_Pattern,8,7,6,9,8
+28-07-2026 19:45,usr_314,Dark_Pattern,9,9,5,9,9
+28-07-2026 21:29,usr_315,Bright_Pattern,2,2,2,2,1
+28-07-2026 22:13,usr_316,Bright_Pattern,3,3,3,3,2
+29-07-2026 07:03,usr_317,Dark_Pattern,7,8,6,8,7
+29-07-2026 07:13,usr_318,Dark_Pattern,8,7,5,9,8
+29-07-2026 07:56,usr_319,Bright_Pattern,2,2,2,2,2
+29-07-2026 08:35,usr_320,Bright_Pattern,3,3,2,3,1
+29-07-2026 09:07,usr_321,Dark_Pattern,8,7,6,8,8
+29-07-2026 13:30,usr_322,Dark_Pattern,9,8,5,9,9
+29-07-2026 13:38,usr_323,Bright_Pattern,2,2,2,2,1
+29-07-2026 13:49,usr_324,Bright_Pattern,2,3,3,2,2
+29-07-2026 14:20,usr_325,Dark_Pattern,7,7,6,8,7
+29-07-2026 16:18,usr_326,Dark_Pattern,8,8,5,9,8
+29-07-2026 19:17,usr_327,Bright_Pattern,3,2,2,3,2
+29-07-2026 20:01,usr_328,Bright_Pattern,2,3,3,2,1
+29-07-2026 20:30,usr_329,Dark_Pattern,7,7,6,8,7
+29-07-2026 22:35,usr_330,Dark_Pattern,8,8,5,9,8
+30-07-2026 06:15,usr_331,Bright_Pattern,2,2,2,2,1
+30-07-2026 08:12,usr_332,Bright_Pattern,3,3,3,3,2
+30-07-2026 08:22,usr_333,Dark_Pattern,8,7,6,9,8
+30-07-2026 08:49,usr_334,Dark_Pattern,9,8,5,9,9
+30-07-2026 10:36,usr_335,Bright_Pattern,2,2,2,2,2
+30-07-2026 11:39,usr_336,Bright_Pattern,3,3,2,3,1
+30-07-2026 14:41,usr_337,Dark_Pattern,7,7,6,8,7
+30-07-2026 15:21,usr_338,Dark_Pattern,8,8,5,9,8
+30-07-2026 15:35,usr_339,Bright_Pattern,2,3,2,2,1
+30-07-2026 16:06,usr_340,Bright_Pattern,2,2,3,2,2
+30-07-2026 19:24,usr_341,Dark_Pattern,7,7,6,8,7
+30-07-2026 21:17,usr_342,Dark_Pattern,8,8,5,9,8
+30-07-2026 23:02,usr_343,Bright_Pattern,3,2,2,3,2
+30-07-2026 23:12,usr_344,Bright_Pattern,2,3,3,2,1
+31-07-2026 06:17,usr_345,Dark_Pattern,8,7,6,9,8
+31-07-2026 06:52,usr_346,Dark_Pattern,9,9,5,9,9
+31-07-2026 06:53,usr_347,Bright_Pattern,2,2,2,2,1
+31-07-2026 07:52,usr_348,Bright_Pattern,3,3,3,3,2
+31-07-2026 08:42,usr_349,Dark_Pattern,7,8,6,8,7
+31-07-2026 11:28,usr_350,Dark_Pattern,8,7,5,9,8
+31-07-2026 11:48,usr_351,Bright_Pattern,2,2,2,2,2
+31-07-2026 12:28,usr_352,Bright_Pattern,3,3,2,3,1
+31-07-2026 12:29,usr_353,Dark_Pattern,8,7,6,8,8
+31-07-2026 12:40,usr_354,Dark_Pattern,9,8,5,9,9
+31-07-2026 17:09,usr_355,Bright_Pattern,2,2,2,2,1
+31-07-2026 17:14,usr_356,Bright_Pattern,2,3,3,2,2
+31-07-2026 17:37,usr_357,Dark_Pattern,7,7,6,8,7
+31-07-2026 17:47,usr_358,Dark_Pattern,8,8,5,9,8
+31-07-2026 18:56,usr_359,Bright_Pattern,3,2,2,3,2
+31-07-2026 20:44,usr_360,Bright_Pattern,2,3,3,2,1
+01-08-2026 07:21,usr_361,Dark_Pattern,7,7,6,8,7
+01-08-2026 09:09,usr_362,Dark_Pattern,8,8,5,9,8
+01-08-2026 09:12,usr_363,Bright_Pattern,2,2,2,2,1
+01-08-2026 09:18,usr_364,Bright_Pattern,3,3,3,3,2
+01-08-2026 09:54,usr_365,Dark_Pattern,8,7,6,9,8
+01-08-2026 14:05,usr_366,Dark_Pattern,9,8,5,9,9
+01-08-2026 14:12,usr_367,Bright_Pattern,2,2,2,2,2
+01-08-2026 14:58,usr_368,Bright_Pattern,3,3,2,3,1
+01-08-2026 15:17,usr_369,Dark_Pattern,7,7,6,8,7
+01-08-2026 15:33,usr_370,Dark_Pattern,8,8,5,9,8
+01-08-2026 20:11,usr_371,Bright_Pattern,2,3,2,2,1
+01-08-2026 22:36,usr_372,Bright_Pattern,2,2,3,2,2
+01-08-2026 23:27,usr_373,Dark_Pattern,7,7,6,8,7
+02-08-2026 06:28,usr_374,Dark_Pattern,8,8,5,9,8
+02-08-2026 07:06,usr_375,Bright_Pattern,3,2,2,3,2
+02-08-2026 07:33,usr_376,Bright_Pattern,2,3,3,2,1
+02-08-2026 08:31,usr_377,Dark_Pattern,8,7,6,9,8
+02-08-2026 09:13,usr_378,Dark_Pattern,9,9,5,9,9
+02-08-2026 11:14,usr_379,Bright_Pattern,2,2,2,2,1
+02-08-2026 11:42,usr_380,Bright_Pattern,3,3,3,3,2
+02-08-2026 12:52,usr_381,Dark_Pattern,7,8,6,8,7
+02-08-2026 13:14,usr_382,Dark_Pattern,8,7,5,9,8
+02-08-2026 15:44,usr_383,Bright_Pattern,2,2,2,2,2
+02-08-2026 16:47,usr_384,Bright_Pattern,3,3,2,3,1
+02-08-2026 17:48,usr_385,Dark_Pattern,8,7,6,8,8
+02-08-2026 19:29,usr_386,Dark_Pattern,9,8,5,9,9
+02-08-2026 19:53,usr_387,Bright_Pattern,2,2,2,2,1
+02-08-2026 21:25,usr_388,Bright_Pattern,2,3,3,2,2
+02-08-2026 23:16,usr_389,Dark_Pattern,7,7,6,8,7
+03-08-2026 06:36,usr_390,Dark_Pattern,8,8,5,9,8
+03-08-2026 07:45,usr_391,Bright_Pattern,3,2,2,3,2
+03-08-2026 08:23,usr_392,Bright_Pattern,2,3,3,2,1
+03-08-2026 08:45,usr_393,Dark_Pattern,7,7,6,8,7
+03-08-2026 08:59,usr_394,Dark_Pattern,8,8,5,9,8
+03-08-2026 12:55,usr_395,Bright_Pattern,2,2,2,2,1
+03-08-2026 12:57,usr_396,Bright_Pattern,3,3,3,3,2
+03-08-2026 13:03,usr_397,Dark_Pattern,8,7,6,9,8
+03-08-2026 13:19,usr_398,Dark_Pattern,9,8,5,9,9
+03-08-2026 13:56,usr_399,Bright_Pattern,2,2,2,2,2
+03-08-2026 18:02,usr_400,Bright_Pattern,3,3,2,3,1
+03-08-2026 18:05,usr_401,Dark_Pattern,7,7,6,8,7
+03-08-2026 18:29,usr_402,Dark_Pattern,8,8,5,9,8
+03-08-2026 20:48,usr_403,Bright_Pattern,2,3,2,2,1
+04-08-2026 06:16,usr_404,Bright_Pattern,2,2,3,2,2
+04-08-2026 06:39,usr_405,Dark_Pattern,7,7,6,8,7
+04-08-2026 07:46,usr_406,Dark_Pattern,8,8,5,9,8
+04-08-2026 08:25,usr_407,Bright_Pattern,3,2,2,3,2
+04-08-2026 10:19,usr_408,Bright_Pattern,2,3,3,2,1
+04-08-2026 10:34,usr_409,Dark_Pattern,8,7,6,9,8
+04-08-2026 11:17,usr_410,Dark_Pattern,9,9,5,9,9
+04-08-2026 12:31,usr_411,Bright_Pattern,2,2,2,2,1
+04-08-2026 13:18,usr_412,Bright_Pattern,3,3,3,3,2
+04-08-2026 15:07,usr_413,Dark_Pattern,7,8,6,8,7
+04-08-2026 16:22,usr_414,Dark_Pattern,8,7,5,9,8
+04-08-2026 16:35,usr_415,Bright_Pattern,2,2,2,2,2
+04-08-2026 19:15,usr_416,Bright_Pattern,3,3,2,3,1
+04-08-2026 19:33,usr_417,Dark_Pattern,8,7,6,8,8
+04-08-2026 19:42,usr_418,Dark_Pattern,9,8,5,9,9
+05-08-2026 06:24,usr_419,Bright_Pattern,2,2,2,2,1
+05-08-2026 08:07,usr_420,Bright_Pattern,2,3,3,2,2
+05-08-2026 09:26,usr_421,Dark_Pattern,7,7,6,8,7
+05-08-2026 09:58,usr_422,Dark_Pattern,8,8,5,9,8
+05-08-2026 10:07,usr_423,Bright_Pattern,3,2,2,3,2
+05-08-2026 11:34,usr_424,Bright_Pattern,2,3,3,2,1
+05-08-2026 15:04,usr_425,Dark_Pattern,7,7,6,8,7
+05-08-2026 16:01,usr_426,Dark_Pattern,8,8,5,9,8
+05-08-2026 16:40,usr_427,Bright_Pattern,2,2,2,2,1
+05-08-2026 17:21,usr_428,Bright_Pattern,3,3,3,3,2
+05-08-2026 17:52,usr_429,Dark_Pattern,8,7,6,9,8
+05-08-2026 21:59,usr_430,Dark_Pattern,9,8,5,9,9
+05-08-2026 22:54,usr_431,Bright_Pattern,2,2,2,2,2
+05-08-2026 23:09,usr_432,Bright_Pattern,3,3,2,3,1
+06-08-2026 06:55,usr_433,Dark_Pattern,7,7,6,8,7
+06-08-2026 07:48,usr_434,Dark_Pattern,8,8,5,9,8
+06-08-2026 07:58,usr_435,Bright_Pattern,2,3,2,2,1
+06-08-2026 08:02,usr_436,Bright_Pattern,2,2,3,2,2
+06-08-2026 10:12,usr_437,Dark_Pattern,7,7,6,8,7
+06-08-2026 12:36,usr_438,Dark_Pattern,8,8,5,9,8
+06-08-2026 13:37,usr_439,Bright_Pattern,3,2,2,3,2
+06-08-2026 14:25,usr_440,Bright_Pattern,2,3,3,2,1
+06-08-2026 14:31,usr_441,Dark_Pattern,8,7,6,9,8
+06-08-2026 17:28,usr_442,Dark_Pattern,9,9,5,9,9
+06-08-2026 18:14,usr_443,Bright_Pattern,2,2,2,2,1
+06-08-2026 20:42,usr_444,Bright_Pattern,3,3,3,3,2
+06-08-2026 21:36,usr_445,Dark_Pattern,7,8,6,8,7
+07-08-2026 07:24,usr_446,Dark_Pattern,8,7,5,9,8
+07-08-2026 08:05,usr_447,Bright_Pattern,2,2,2,2,2
+07-08-2026 08:46,usr_448,Bright_Pattern,3,3,2,3,1
+07-08-2026 09:38,usr_449,Dark_Pattern,8,7,6,8,8
+07-08-2026 09:45,usr_450,Dark_Pattern,9,8,5,9,9
+07-08-2026 13:43,usr_451,Bright_Pattern,2,2,2,2,1
+07-08-2026 14:11,usr_452,Bright_Pattern,2,3,3,2,2
+07-08-2026 14:38,usr_453,Dark_Pattern,7,7,6,8,7
+07-08-2026 15:02,usr_454,Dark_Pattern,8,8,5,9,8
+07-08-2026 15:09,usr_455,Bright_Pattern,3,2,2,3,2
+07-08-2026 19:10,usr_456,Bright_Pattern,2,3,3,2,1
+07-08-2026 20:28,usr_457,Dark_Pattern,7,7,6,8,7
+07-08-2026 20:53,usr_458,Dark_Pattern,8,8,5,9,8
+08-08-2026 06:09,usr_459,Bright_Pattern,2,2,2,2,1
+08-08-2026 06:29,usr_460,Bright_Pattern,3,3,3,3,2
+08-08-2026 07:16,usr_461,Dark_Pattern,8,7,6,9,8
+08-08-2026 07:18,usr_462,Dark_Pattern,9,8,5,9,9
+08-08-2026 08:36,usr_463,Bright_Pattern,2,2,2,2,2
+08-08-2026 11:23,usr_464,Bright_Pattern,3,3,2,3,1
+08-08-2026 11:45,usr_465,Dark_Pattern,7,7,6,8,7
+08-08-2026 12:49,usr_466,Dark_Pattern,8,8,5,9,8
+08-08-2026 13:50,usr_467,Bright_Pattern,2,3,2,2,1
+08-08-2026 16:09,usr_468,Bright_Pattern,2,2,3,2,2
+08-08-2026 16:49,usr_469,Dark_Pattern,7,7,6,8,7
+08-08-2026 17:36,usr_470,Dark_Pattern,8,8,5,9,8
+08-08-2026 18:25,usr_471,Bright_Pattern,3,2,2,3,2
+08-08-2026 20:03,usr_472,Bright_Pattern,2,3,3,2,1
+08-08-2026 22:18,usr_473,Dark_Pattern,8,7,6,9,8
+08-08-2026 23:43,usr_474,Dark_Pattern,9,9,5,9,9
+09-08-2026 06:04,usr_475,Bright_Pattern,2,2,2,2,1
+09-08-2026 08:48,usr_476,Bright_Pattern,3,3,3,3,2
+09-08-2026 08:56,usr_477,Dark_Pattern,7,8,6,8,7
+09-08-2026 09:52,usr_478,Dark_Pattern,8,7,5,9,8
+09-08-2026 10:31,usr_479,Bright_Pattern,2,2,2,2,2
+09-08-2026 11:54,usr_480,Bright_Pattern,3,3,2,3,1
+09-08-2026 13:57,usr_481,Dark_Pattern,8,7,6,8,8
+09-08-2026 15:25,usr_482,Dark_Pattern,9,8,5,9,9
+09-08-2026 15:41,usr_483,Bright_Pattern,2,2,2,2,1
+09-08-2026 16:27,usr_484,Bright_Pattern,2,3,3,2,2
+09-08-2026 18:17,usr_485,Dark_Pattern,7,7,6,8,7
+09-08-2026 19:01,usr_486,Dark_Pattern,8,8,5,9,8
+10-08-2026 07:02,usr_487,Bright_Pattern,3,2,2,3,2
+10-08-2026 08:01,usr_488,Bright_Pattern,2,3,3,2,1
+10-08-2026 09:41,usr_489,Dark_Pattern,7,7,6,8,7
+10-08-2026 10:16,usr_490,Dark_Pattern,8,8,5,9,8
+10-08-2026 10:44,usr_491,Bright_Pattern,2,2,2,2,1
+10-08-2026 13:36,usr_492,Bright_Pattern,3,3,3,3,2
+10-08-2026 13:44,usr_493,Dark_Pattern,8,7,6,9,8
+10-08-2026 14:23,usr_494,Dark_Pattern,9,8,5,9,9
+10-08-2026 16:25,usr_495,Bright_Pattern,2,2,2,2,2
+10-08-2026 17:16,usr_496,Bright_Pattern,3,3,2,3,1
+10-08-2026 19:08,usr_497,Dark_Pattern,7,7,6,8,7
+10-08-2026 19:50,usr_498,Dark_Pattern,8,8,5,9,8
+10-08-2026 20:38,usr_499,Bright_Pattern,2,2,2,2,1
+10-08-2026 21:39,usr_500,Bright_Pattern,2,3,3,2,2
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
