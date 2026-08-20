@@ -1,0 +1,17 @@
+{
+    "Metadata": {
+        "Generated_At": "20260815_091252",
+        "Project": "Manipulative Consent Architectures"
+    },
+    "Phase_1_Computational_Audit": {
+        "Total_Parsed_Domains": 1210,
+        "Interface_Interference_Count": 85,
+        "Interface_Interference_Prevalence_Pct": 7.02,
+        "Confirmshaming_Count": 0
+    },
+    "Phase_2_Behavioral_Outcomes": {
+        "Total_Participants": 500,
+        "Task_Success_Odds_Ratio": 0.453,
+        "Time_Tax_Correlation_Rho": 0.628
+    }
+}
