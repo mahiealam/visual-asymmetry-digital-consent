@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News - Tech Update</title>
+    
+    <!-- POSTHOG ANALYTICS SNIPPET GOES HERE -->
+    
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; }
+        .article { max-width: 800px; margin: 0 auto; background: white; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .blur { filter: blur(4px); pointer-events: none; user-select: none; }
+        
+        /* The Ethical Cookie Banner */
+        .cookie-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+        .cookie-banner { background: white; padding: 30px; width: 500px; border-radius: 8px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+        
+        /* Ethical CSS: Equal size, equal contrast */
+        .button-group { display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; }
+        .btn-neutral { background-color: #e0e0e0; color: #333; border: 1px solid #ccc; padding: 12px 20px; font-size: 14px; font-weight: bold; border-radius: 5px; cursor: pointer; flex: 1; }
+        .btn-neutral:hover { background-color: #d0d0d0; }
+    </style>
+</head>
+<body>
+
+    <div class="article blur" id="content">
+        <h1>The Future of Artificial Intelligence in 2027</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="cookie-overlay" id="cookieOverlay">
+        <div class="cookie-banner">
+            <h2>Cookie Preferences</h2>
+            <p>We use cookies to improve your experience. Please select your preferences below.</p>
+            
+            <!-- Ethical Design: Equal visual hierarchy -->
+            <div class="button-group">
+                <button class="btn-neutral" onclick="recordAction('Accept_All')">Accept All</button>
+                <button class="btn-neutral" onclick="recordAction('Reject_All')">Reject All</button>
+                <button class="btn-neutral" onclick="recordAction('Manage_Options')">Manage Options</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const startTime = Date.now();
+
+        function recordAction(action) {
+            const reactionTime = Date.now() - startTime;
+            
+            // posthog.capture('cookie_interaction', { decision: action, time_ms: reactionTime, condition: 'Bright_Pattern' });
+            
+            console.log(`Condition: Bright Pattern | Action: ${action} | Time: ${reactionTime}ms`);
+            
+            document.getElementById('cookieOverlay').style.display = 'none';
+            document.getElementById('content').classList.remove('blur');
+            
+            alert(`Data Logged. Reaction Time: ${reactionTime}ms. You clicked: ${action}. \n\n(If you clicked Reject All, you passed the task!)`);
+        }
+    </script>
+</body>
+</html>

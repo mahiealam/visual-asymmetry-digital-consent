@@ -1,0 +1,143 @@
+/* --------------------------------------------------------------------------
+   1. Base & Mock Article Styles
+   -------------------------------------------------------------------------- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: filter 0.3s ease;
+}
+
+/* Forces the user's attention strictly to the modal */
+.blur-background {
+  filter: blur(6px);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* --------------------------------------------------------------------------
+   2. Shared Modal Architecture
+   -------------------------------------------------------------------------- */
+.cookie-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.cookie-banner {
+  background: #ffffff;
+  padding: 40px;
+  width: 90%;
+  max-width: 550px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.cookie-banner h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #111;
+}
+
+.cookie-banner p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* ==========================================================================
+   CONDITION A: DARK PATTERN (INTERFACE INTERFERENCE)
+   Implements extreme visual asymmetry via padding, weight, and WCAG contrast.
+   ========================================================================== */
+
+/* The Data-Extractive Pathway (Maximum Salience) */
+.btn-massive-green {
+  background-color: #28a745; /* High contrast relative luminance */
+  color: #ffffff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+  transition: background-color 0.2s ease;
+}
+
+.btn-massive-green:hover {
+  background-color: #218838;
+}
+
+/* The Privacy-Preserving Pathway (High Visual Friction / Obfuscation) */
+.btn-tiny-grey {
+  background: transparent;
+  border: none;
+  color: #999999; /* Deliberately low contrast against white background */
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.2s ease;
+}
+
+.btn-tiny-grey:hover {
+  color: #666666;
+}
+
+/* ==========================================================================
+   CONDITION B: BRIGHT PATTERN (THE ETHICAL CONTROL)
+   Implements structural symmetry. Prevents Salience Bias.
+   ========================================================================== */
+
+.button-group-equal {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+/* Standardized dimensions, padding, and contrast for all choices */
+.btn-neutral {
+  background-color: #e9ecef;
+  color: #343a40;
+  border: 1px solid #ced4da;
+  padding: 14px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  flex: 1; /* Ensures mathematical equivalence in spatial area */
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-neutral:hover {
+  background-color: #dde2e6;
+  border-color: #adb5bd;
+}

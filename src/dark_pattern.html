@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News - Tech Update</title>
+    
+    <!-- POSTHOG ANALYTICS SNIPPET GOES HERE -->
+    
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; }
+        .article { max-width: 800px; margin: 0 auto; background: white; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .blur { filter: blur(4px); pointer-events: none; user-select: none; }
+        
+        /* The Dark Pattern Cookie Banner */
+        .cookie-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+        .cookie-banner { background: white; padding: 30px; width: 500px; border-radius: 8px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+        
+        /* Interface Interference CSS */
+        .btn-accept { background-color: #28a745; color: white; border: none; padding: 15px 40px; font-size: 20px; font-weight: bold; border-radius: 5px; cursor: pointer; width: 100%; margin-bottom: 15px; }
+        .btn-accept:hover { background-color: #218838; }
+        .btn-manage { background: none; border: none; color: #888; font-size: 12px; text-decoration: underline; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <!-- Mock Content -->
+    <div class="article blur" id="content">
+        <h1>The Future of Artificial Intelligence in 2027</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <!-- Dark Pattern Banner -->
+    <div class="cookie-overlay" id="cookieOverlay">
+        <div class="cookie-banner">
+            <h2>We Value Your Privacy</h2>
+            <p>We and our partners use cookies to store and access personal data such as browsing data for personalized ads and content, ad and content measurement, audience insights and product development.</p>
+            
+            <!-- Salience Bias: Huge green button vs tiny grey link -->
+            <button class="btn-accept" onclick="recordAction('Accept_All')">ACCEPT ALL COOKIES</button>
+            <button class="btn-manage" onclick="recordAction('Manage_Options')">manage options</button>
+        </div>
+    </div>
+
+    <script>
+        const startTime = Date.now();
+
+        function recordAction(action) {
+            const reactionTime = Date.now() - startTime;
+            
+            // If using PostHog, this is how we capture the data for your paper
+            // posthog.capture('cookie_interaction', { decision: action, time_ms: reactionTime, condition: 'Dark_Pattern' });
+            
+            console.log(`Condition: Dark Pattern | Action: ${action} | Time: ${reactionTime}ms`);
+            
+            document.getElementById('cookieOverlay').style.display = 'none';
+            document.getElementById('content').classList.remove('blur');
+            
+            // In a real study, redirect them to a Qualtrics survey here to log their success/failure
+            alert(`Data Logged. Reaction Time: ${reactionTime}ms. You clicked: ${action}. \n\n(If you clicked Accept, you failed the task!)`);
+        }
+    </script>
+</body>
+</html>
